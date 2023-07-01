@@ -181,7 +181,8 @@ vim.o.expandtab = false
 -- Set highlight on search
 vim.o.hlsearch = false
 
--- Make line numbers default
+-- Make relative line numbers default
+vim.wo.relativenumber = true
 vim.wo.number = true
 
 -- Enable mouse mode
